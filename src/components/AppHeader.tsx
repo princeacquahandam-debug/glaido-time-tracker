@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import glaidoLogo from "@/assets/glaido-logo.svg";
+import glaidoLogo from "@/assets/glaido-logo.png";
 
 interface AppHeaderProps {
   links: { label: string; to: string }[];
