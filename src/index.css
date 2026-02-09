@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,35 +15,35 @@
     --popover: 0 0% 7%;
     --popover-foreground: 210 33% 98%;
 
-    --primary: 78 90% 62%;
+    --primary: 0 84% 60%;
     --primary-foreground: 0 0% 0%;
 
     --secondary: 0 0% 16%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary-foreground: 210 33% 98%;
 
     --muted: 0 0% 7%;
     --muted-foreground: 218 9% 65%;
 
-    --accent: 78 90% 62%;
+    --accent: 0 84% 60%;
     --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 33% 98%;
 
-    --border: 0 0% 14%;
-    --input: 0 0% 14%;
-    --ring: 78 90% 62%;
+    --border: 0 84% 60% / 0.18;
+    --input: 0 84% 60% / 0.18;
+    --ring: 0 84% 60%;
 
     --radius: 0rem;
 
     --sidebar-background: 0 0% 4%;
     --sidebar-foreground: 210 33% 98%;
-    --sidebar-primary: 78 90% 62%;
+    --sidebar-primary: 0 84% 60%;
     --sidebar-primary-foreground: 0 0% 0%;
     --sidebar-accent: 0 0% 7%;
     --sidebar-accent-foreground: 210 33% 98%;
-    --sidebar-border: 0 0% 14%;
-    --sidebar-ring: 78 90% 62%;
+    --sidebar-border: 0 84% 60% / 0.18;
+    --sidebar-ring: 0 84% 60%;
 
     --panel: 0 0% 7%;
   }

@@ -14,7 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+        heading: ["Syne", "Inter", "system-ui", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+        mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -68,7 +70,11 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       boxShadow: {
-        glow: "0px 0px 60px -15px rgba(191, 245, 73, 0.6)",
+        glow: "0px 0px 60px -15px rgba(239, 68, 68, 0.55)",
+        card: "rgba(0,0,0,0.35) 0px 10px 30px -15px",
+        "input-glow": "rgba(239, 68, 68, 0.10) 0px 0px 0px 1px",
+        "secondary-btn": "rgba(0,0,0,0.20) 0px 10px 15px -3px, rgba(0,0,0,0.18) 0px 4px 6px -4px",
+        "running-dot": "rgba(239, 68, 68, 0.65) 0px 0px 18px 2px",
       },
       keyframes: {
         "accordion-down": {
