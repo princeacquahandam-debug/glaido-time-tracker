@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import glaidoLogo from "@/assets/glaido-logo.svg";
+import glaidoLogo from "@/assets/glaido-logo.png";
 
 const Login = () => {
   const navigate = useNavigate();
